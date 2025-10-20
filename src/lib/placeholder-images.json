@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A rustic table laden with fresh organic produce.",
+      "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvcmdhbmljJTIwZm9vZHxlbnwwfHx8fDE3NjA5NDc4NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "organic food"
+    },
+    {
+      "id": "almonds",
+      "description": "A bowl of fresh almonds.",
+      "imageUrl": "https://images.unsplash.com/photo-1617175093792-30a13225201f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YWxtb25kc3xlbnwwfHx8fDE3NjA5MjAzMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "almonds"
+    },
+    {
+      "id": "cashews",
+      "description": "A bowl of creamy cashews.",
+      "imageUrl": "https://images.unsplash.com/photo-1615485925873-7ecbbe90a866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXNoZXdzfGVufDB8fHx8MTc2MDkyMDMzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cashews"
+    },
+    {
+      "id": "raisins",
+      "description": "A scoop of sweet raisins.",
+      "imageUrl": "https://images.unsplash.com/photo-1589357708998-109e61f4c6da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmFpc2luc3xlbnwwfHx8fDE3NjA5MjAzMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "raisins"
+    },
+    {
+      "id": "toor-dal",
+      "description": "A bowl of yellow toor dal.",
+      "imageUrl": "https://images.unsplash.com/photo-1708436477916-f97964f3ccf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsZW50aWxzfGVufDB8fHx8MTc2MDk0Nzg2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lentils"
+    },
+    {
+      "id": "moong-dal",
+      "description": "A bowl of green moong dal.",
+      "imageUrl": "https://images.unsplash.com/photo-1552585960-0e1069ce7405?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW50aWxzfGVufDB8fHx8MTc2MDk0Nzg2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lentils"
+    },
+    {
+      "id": "chana-dal",
+      "description": "A bowl of split chickpeas, chana dal.",
+      "imageUrl": "https://images.unsplash.com/photo-1521763069287-579ca77694e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlja3BlYXN8ZW58MHx8fHwxNzYwOTQ3ODY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chickpeas"
+    },
+    {
+      "id": "turmeric",
+      "description": "A pile of bright yellow turmeric powder.",
+      "imageUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzcGljZXN8ZW58MHx8fHwxNzYwODg1MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spices"
+    },
+    {
+      "id": "chili-powder",
+      "description": "A pile of vibrant red chili powder.",
+      "imageUrl": "https://images.unsplash.com/photo-1581600140682-d4e68c8cde32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGljZXN8ZW58MHx8fHwxNzYwODg1MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spices"
+    },
+    {
+      "id": "garam-masala",
+      "description": "A mix of whole spices for garam masala.",
+      "imageUrl": "https://images.unsplash.com/photo-1592457711340-2412dc07b733?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzcGljZXN8ZW58MHx8fHwxNzYwODg1MjgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spices"
+    },
+    {
+      "id": "organic-honey",
+      "description": "A jar of golden organic honey.",
+      "imageUrl": "https://images.unsplash.com/photo-1555035900-54c17f3bc1eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob25leXxlbnwwfHx8fDE3NjA5NDc4Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "honey"
+    },
+    {
+      "id": "jaggery",
+      "description": "Blocks of natural jaggery.",
+      "imageUrl": "https://images.unsplash.com/photo-1576394435759-02a2674ff6e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqYWdnZXJ5fGVufDB8fHx8MTc2MDk0Nzg2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jaggery"
+    },
+    {
+      "id": "ghee",
+      "description": "A jar of pure desi ghee.",
+      "imageUrl": "https://images.unsplash.com/photo-1707425197195-240b7ad69047?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxnaGVlfGVufDB8fHx8MTc2MDk0Nzg2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ghee"
+    }
+  ]
+}

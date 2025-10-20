@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 60 56% 91%; /* Light Beige */
+    --foreground: 20 14.3% 4.1%; /* Dark brown/black for text */
+    --card: 60 56% 93%; /* Slightly different from background for depth */
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 60 56% 93%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 80 100% 32%; /* Earthy Green */
+    --primary-foreground: 80 20% 98%; 
+    --secondary: 60 20% 85%; /* Lighter beige for secondary elements */
+    --secondary-foreground: 20 14.3% 4.1%;
+    --muted: 60 20% 88%;
+    --muted-foreground: 20 8% 45%;
+    --accent: 25 57% 40%; /* Light Brown */
+    --accent-foreground: 25 20% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 60 20% 80%;
+    --input: 60 20% 85%;
+    --ring: 80 100% 32%;
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 56% 91%;
+    --card: 20 14.3% 6.1%;
+    --card-foreground: 60 56% 91%;
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 56% 91%;
+    --primary: 80 100% 32%;
+    --primary-foreground: 80 20% 98%;
+    --secondary: 20 8% 10%;
+    --secondary-foreground: 60 56% 91%;
+    --muted: 20 8% 10%;
+    --muted-foreground: 60 30% 70%;
+    --accent: 25 57% 40%;
+    --accent-foreground: 25 20% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 20 8% 15%;
+    --input: 20 8% 15%;
+    --ring: 80 100% 40%;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
