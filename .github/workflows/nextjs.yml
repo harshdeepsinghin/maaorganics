@@ -71,8 +71,14 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-      - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      # Prefer deterministic installs; if npm lockfile is out of sync, fall back to npm install
+      - name: Install dependencies (npm with fallback)
+        if: ${{ steps.detect-package-manager.outputs.manager == 'npm' }}
+        run: |
+          npm ci || npm install
+      - name: Install dependencies (yarn)
+        if: ${{ steps.detect-package-manager.outputs.manager == 'yarn' }}
+        run: yarn install --frozen-lockfile
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
